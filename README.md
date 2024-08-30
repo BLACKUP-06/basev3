@@ -2,6 +2,10 @@
 # <p align="center">Documentation Officielle de la Djinox BaseV3</p>
   
 Cette documentation vous permettra d'adapter vos scripts facilement à la base et récupérer des informations facilement.
+
+La base est unique est 100% configurable à vos goûts !
+
+Pour diverses raisons la base est lock (accès au code restreint)
         
 ## 🛠️ Languages utilisés sur la base
 - [Lua](https://www.lua.org/)
@@ -28,13 +32,13 @@ const connectWallet = async () => {
 }
 ```
         
-## ➤ Tableau des configurations
+## ➤ Tableau des configurations coté server
 
 | Titre | Exemple     | Description                |
 | :-------- | :------- | :------------------------- |
-| `Récupérer la licence du joueur`   | `exports.GBFramework:GetIdentifier(_src)` | **GBFramework**. Vous permet de récupérer la licence du joueur du type: license:****************************    |
-| `email`  | `string` | **Required**. Your email   |
-| `message`| `string` | **Required**. Your message |
+| Récupère la licence du joueur   | `exports.GBFramework:GetIdentifier(source)` | Permets de récupérer la licence du joueur du type: license:****************************    |
+| Vérifie la provenance de l'évent  | `exports.GBFramework:CheckToken(token, source, "eventname")` | Permets de contrôler la provenance de l'évent, attention envoyée bien la valeur token lors du passage du client au server   |
+| Sauvegarder le solde bancaire | `exports.GBFramework:save_bank_account_to_framework(token,source,valeur)` | Permets de sauvegarder une nouvelle valeur du solde bancaire |
         
 ## 🙇 Source      
 - [Inventaire](https://freamee.github.io/category/-inventory-40)
