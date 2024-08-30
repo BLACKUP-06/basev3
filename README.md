@@ -30,9 +30,9 @@ const connectWallet = async () => {
         
 ## ➤ Tableau des configurations
 
-| Parameter | Type     | Description                |
+| Titre | Code     | Description                |
 | :-------- | :------- | :------------------------- |
-| `name`   | `string` | **Required**. Your name    |
+| `name`   | `exports.GBFramework:GetIdentifier(_src)` | **Required**. Your name    |
 | `email`  | `string` | **Required**. Your email   |
 | `message`| `string` | **Required**. Your message |
         
