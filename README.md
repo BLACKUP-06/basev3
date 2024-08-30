@@ -30,9 +30,9 @@ const connectWallet = async () => {
         
 ## ➤ Tableau des configurations
 
-| Titre | Code     | Description                |
+| Titre | Exemple     | Description                |
 | :-------- | :------- | :------------------------- |
-| `name`   | `exports.GBFramework:GetIdentifier(_src)` | **Required**. Your name    |
+| `Récupérer la licence du joueur`   | `exports.GBFramework:GetIdentifier(_src)` | **GBFramework**. Vous permet de récupérer la licence du joueur du type: license:****************************    |
 | `email`  | `string` | **Required**. Your email   |
 | `message`| `string` | **Required**. Your message |
         
