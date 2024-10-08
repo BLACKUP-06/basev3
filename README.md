@@ -20,6 +20,7 @@ GBFramework
 GBCore
 notifui
 uikeyboard
+uiconfirm
 ```
         
 ## 🧑🏻‍💻 Usage
